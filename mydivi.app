@@ -8,5 +8,8 @@
 {registered,[myadd]},
 {applications, [kernel,stdlib]},
 {mod, {myadd_app,[]}},
-{start_phases, []}
+{start_phases, []},
+{git_path,"https://github.com/joq62/mydivi.git"},
+{env,[]},
+{hosts_needed,[]}
 ]}.
