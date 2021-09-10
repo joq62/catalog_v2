@@ -1,13 +1,13 @@
 %% This is the application resource file (.app file) for the 'base'
 %% application.
-{application, myadd,
-[{description, "myadd  " },
+{application, mydivi,
+[{description, "mydivi  " },
 {vsn, "1.0.0" },
 {modules, 
-	  [myadd_app,myadd_sup,myadd]},
-{registered,[myadd]},
+	  [mydivi_app,mydivi_sup,mydivi]},
+{registered,[mydivi]},
 {applications, [kernel,stdlib]},
-{mod, {myadd_app,[]}},
+{mod, {mydivi_app,[]}},
 {start_phases, []},
 {git_path,"https://github.com/joq62/mydivi.git"},
 {env,[]},
